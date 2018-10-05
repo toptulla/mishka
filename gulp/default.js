@@ -3,7 +3,6 @@ var runseq = require('run-sequence');
 
 gulp.task('default', function() {
   runseq(
-    'add-bootstrap',
     'copy-html',
     'copy-css',
     'copy-fonts',
