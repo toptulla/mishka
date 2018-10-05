@@ -1,0 +1,40 @@
+{
+  "name": "mishka",
+  "version": "0.0.1",
+  "description": "Учебный прокет от html academy.",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toptulla/mishka.git"
+  },
+  "config": {
+    "src": {
+      "sass": "./src/sass"
+    },
+    "build": {
+      "css": "./build/css"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 version"
+  ],
+  "author": "Tsay Aleksey <ad.tsay@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toptulla/mishka/issues"
+  },
+  "homepage": "https://github.com/toptulla/mishka#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1",
+    "require-dir": "^1.1.0",
+    "run-sequence": "^2.2.1"
+  }
+}
