@@ -1,0 +1,24 @@
+.reviews__container {
+  width: 260px;
+  padding: 45px 0; }
+
+.reviews__title {
+  margin-bottom: 20px; }
+
+.reviews__text {
+  margin-bottom: 20px;
+  line-height: 2; }
+
+.reviews__author-name {
+  color: #444;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 15px; }
+
+.reviews__author-nickname {
+  font-size: 17px;
+  margin-bottom: 40px; }
+
+.reviews__write {
+  padding-top: 40px;
+  text-align: center; }

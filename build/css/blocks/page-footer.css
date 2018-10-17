@@ -1,0 +1,28 @@
+.social-links {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 25px;
+  text-align: center; }
+
+.social-links__item {
+  display: inline-block;
+  margin: 0 10px; }
+
+.copyright {
+  padding-top: 25px;
+  text-align: center; }
+
+.copyright__text {
+  margin-right: 15px;
+  font-size: 19px;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle; }
+
+.copyright__link {
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.page-footer {
+  padding: 25px 30px;
+  background-color: #f1f1f1; }

@@ -1,0 +1,4 @@
+.page-separator {
+  height: 6px;
+  background-image: url("../img/zigzag-line-desktop.svg");
+  background-repeat: repeat-x; }

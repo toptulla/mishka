@@ -1,0 +1,23 @@
+.main-header {
+  background-image: url("../img/hero-mobile@1x.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  min-height: 283px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.main-header__header {
+  text-align: center;
+  font-family: 'Open Sans Bold';
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 30px;
+  word-spacing: 5px;
+  margin: 0 10px; }
