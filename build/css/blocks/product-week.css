@@ -1,9 +1,14 @@
-.product-week__container {
-  width: 260px;
-  padding: 45px 0; }
+.product-week {
+  margin: 40px 30px; }
+
+.product-week__title {
+  color: black;
+  font-family: 'Open Sans Bold', Arial;
+  font-size: 25px;
+  font-weight: 700; }
 
 .product-week__header {
-  font-family: 'Open Sans Bold';
+  font-family: 'Open Sans Bold', Arial;
   font-size: 17px;
   font-weight: 700;
   line-height: 1.17647;
@@ -12,15 +17,14 @@
   margin-bottom: 30px; }
 
 .product-week__description-text {
-  line-height: 2;
   margin-bottom: 30px; }
 
 .product-week__description-properties {
-  width: 260px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: 100%; }
 
 .product-week__field {
-  width: 33.3%;
+  width: 90px;
   border-bottom: 1px solid #ececec;
   height: 40px; }
 
@@ -31,9 +35,6 @@
 .product-week__price {
   text-align: center;
   padding: 30px 0;
-  font-family: 'Open Sans Bold';
+  font-family: 'Open Sans Bold', Arial;
   font-size: 17px;
-  color: black; }
-
-.product-week__buy {
-  text-align: center; }
+  font-weight: 700; }
