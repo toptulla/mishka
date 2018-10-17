@@ -1,0 +1,8 @@
+.social-links {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 25px;
+  text-align: center; }
+
+.social-links__item {
+  display: inline-block;
+  margin: 0 10px; }
