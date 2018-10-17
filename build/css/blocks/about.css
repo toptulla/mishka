@@ -1,6 +1,11 @@
-.about__container {
-  width: 260px;
-  padding: 45px 0; }
+.about {
+  margin: 40px 30px; }
+
+.about__title {
+  color: black;
+  font-family: 'Open Sans Bold', Arial;
+  font-size: 25px;
+  font-weight: 700; }
 
 .about__items {
   display: -webkit-box;
@@ -15,6 +20,7 @@
   margin: 20px 0; }
 
 .about__list-item-name {
-  font-family: 'Open Sans Bold';
+  color: black;
+  font-family: 'Open Sans Bold', Arial;
   font-size: 17px;
-  color: black; }
+  font-weight: 700; }

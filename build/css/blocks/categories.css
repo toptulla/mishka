@@ -18,7 +18,11 @@
   background-color: #56c3b2; }
 
 .categories__category-name {
-  width: 70px; }
+  width: 70px;
+  color: white;
+  font-family: 'Open Sans Bold', Arial;
+  font-size: 19px;
+  font-weight: 700; }
 
 .categories__category-logo {
   width: 60px;
