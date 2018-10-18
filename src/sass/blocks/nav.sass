@@ -1,0 +1,128 @@
+.nav
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 80px
+    max-width: 1150px
+    margin: 0 auto
+
+.nav-toggle
+    position: absolute
+    top: 30px
+    right: 30px
+    background-image: url('../img/menu-open.svg')
+    background-repeat: no-repeat
+    background-color: white
+    width: 20px
+    height: 20px
+    border: 0
+
+.nav__list
+    display: none
+    position: absolute
+    width: 100%
+    background-color: white
+
+.nav__item
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 80px
+    border-bottom: 1px solid #ececec
+
+.nav__list--site
+    top: 81px
+
+.nav__list--user
+    top: 241px
+
+.nav__item-link
+    width: 260px
+    font-size: 0 // Removing Gaps Between Inline and Inline-Block Elements
+
+.nav__item-link--only-text
+    padding-left: 50px
+
+.nav__item-logo
+    display: inline-block
+    width: 50px
+    padding: 3px 0
+    vertical-align: middle
+
+.nav__item-text
+    font:
+        family: 'Open Sans Bold'
+        size: 17px
+        weight: 700
+    vertical-align: middle
+
+@media screen and (min-width: 768px)
+    .nav
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 90px
+        padding: 0px 50px
+
+    .nav-toggle
+        display: none
+
+    .nav__list
+        display: flex
+        position: static
+        width: auto
+
+    .nav__list--site
+        display: none
+
+    .nav__item
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 90px
+        border: 0px
+
+    .nav__item--search
+        width: 80px
+        border:
+            left: 1px solid #ececec
+            right: 1px solid #ececec
+
+    .nav__item-logo
+        text-align: center
+        padding-top: 4px
+        padding-bottom: 2px
+
+    .nav__item--search > .nav__item-link > .nav__item-text
+        display: none
+
+    .nav__item--cart > .nav__item-link > .nav__item-logo
+        width: 80px
+
+    .nav__item-link
+        width: auto
+
+@media screen and (min-width: 1150px)
+    .nav
+        padding: 0px
+
+    .nav__list--site
+        display: flex
+        order: 0
+
+    .nav__logo-link
+        order: 1
+
+    .nav__list--user
+        order: 2
+
+    .nav__item-link--only-text
+        padding: 0px
+
+    .nav__list--site > .nav__item:nth-child(1)
+        padding-right: 35px
+        border-right: 1px solid #ececec
+
+    .nav__list--site > .nav__item:nth-child(2)
+        padding-left: 35px
