@@ -13,7 +13,6 @@
         family: 'Open Sans Bold', Arial
         size: 17px
         weight: 700
-    line-height: 1.17647
     text-transform: uppercase
     color: #63d1bb
     margin-bottom: 30px
@@ -34,6 +33,10 @@
     border-bottom: 1px solid #ececec
     height: 40px
 
+.product-week__logo
+    width: 100%
+    height: auto
+
 .product-week__price
     text-align: center
     padding: 30px 0
@@ -41,3 +44,96 @@
         family: 'Open Sans Bold', Arial
         size: 17px
         weight: 700
+
+@media screen and (min-width: 768px)
+    .product-week
+        margin: 40px 50px
+
+    .product-week__container
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+    
+    .product-week__title
+        font-size: 43px
+        flex-grow: 1
+        margin-bottom: 57px
+
+    .product-week__header
+        width: 72px
+        padding-top: 18px
+        padding-bottom: 6px
+        line-height: 0.9
+        text-align: center
+        margin-bottom: 57px
+    
+    .product-week__description
+        display: flex
+        flex-direction: column
+        position: relative
+        width: 100%
+        height: 405px
+
+    .product-week__description-logo
+        position: absolute
+        right: 0
+    
+    .product-week__description-container
+        width: calc(100% - 376px)
+
+    .product-week__price
+        position: absolute
+        padding: 0
+        bottom: 98px
+
+    .product-week__buy
+        position: absolute
+        bottom: 0
+
+@media screen and (min-width: 1150px)
+    .product-week
+        width: 1050px
+        margin: 70px auto
+
+    .product-week__container
+        position: relative
+        height: 636px
+    
+    .product-week__title
+        font-size: 53px
+        position: absolute
+        left: 175px
+        top: 48px
+        z-index: 1
+
+    .product-week__header
+        position: absolute
+        left: 51px
+        top: 55px
+        padding-top: 21px
+        padding-bottom: 3px
+
+    .product-week__description
+        height: 636px
+        margin-left: 175px
+
+    .product-week__description-container
+        width: calc(100% - 585px)
+
+    .product-week__description-properties
+        bottom: 220px
+
+
+    .product-week__field, .product-week__value
+        font-size: 20px
+
+    .product-week__price
+        font-size: 20px
+
+    .product-week__description-text
+        margin-top: 180px
+        margin-bottom: 60px
+        font-size: 20px
+
+    .product-week__description-logo
+        z-index: -1

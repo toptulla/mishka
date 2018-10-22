@@ -16,7 +16,11 @@ document.addEventListener('DOMContentLoaded', function () {
         else
         {
             site_nav.style.display = 'block';
+            site_nav.style.zIndex = '1';
+
             user_nav.style.display = 'block';
+            user_nav.style.zIndex = '1';
+            
             nav_toggle.style.backgroundImage = "url('../img/menu-close.svg')";
         }
     };

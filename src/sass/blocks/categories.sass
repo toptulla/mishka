@@ -1,16 +1,22 @@
-.categories__item-link
-    height: 100px
+.categories
+    position: absolute
+    bottom: 0px
     display: flex
-    align-items: center
-    justify-content: space-between
-    padding: 0 30px
-
+    flex-direction: column
+    width: 100%
 
 .categories__item
     background-color: #63d1bb
 
 .categories__item:nth-child(2n+2)
     background-color: #56c3b2
+
+.categories__item-link
+    height: 103px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 30px
 
 .categories__category-name
     width: 70px
@@ -20,7 +26,28 @@
         size: 19px
         weight: 700
 
-
 .categories__category-logo
     width: 60px
     text-align: center
+
+@media screen and (min-width: 768px)
+    .categories
+        flex-direction: row
+        padding: 0 50px
+
+    .categories__item
+        flex-grow: 1
+
+    .categories__item-link
+        height: 119px
+
+@media screen and (min-width: 1150px)
+    .categories
+        width: 1050px
+        padding: 0px
+        margin: 0 auto
+        left: 0
+        right: 0
+
+    .categories__category-name
+        font-size: 20px
