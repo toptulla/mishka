@@ -1,4 +1,16 @@
 .page-separator
     height: 6px
-    background-image: url('../img/separator.svg')
+    background-image: url('../img/zigzag-mobile.svg')
     background-repeat: repeat-x
+
+@media screen and (min-width: 768px)
+    .page-separator
+        height: 17px
+        background-image: url('../img/zigzag-tablet.svg')
+        background-repeat: repeat-x
+
+@media screen and (min-width: 1150px)
+    .page-separator
+        height: 23px
+        background-image: url('../img/zigzag-desktop.svg')
+        background-repeat: repeat-x
